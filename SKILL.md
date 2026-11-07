@@ -55,7 +55,11 @@ cp -r handbook-writing/* ~/.workbuddy/skills/handbook-writing/
 
 > 没有 git？在本仓库页面点 **Code → Download ZIP**，解压后同样复制。Windows 用户用资源管理器复制即可，不需要命令行。
 
-### 第 2 步：对 Agent 说一句话
+### 第 2 步：扫一眼真实成品（强烈建议）
+
+打开 `examples/` 里的两份手册（Word 课 + Excel 课，真实交付版），对照 `examples/README.md` 的"看点对照表"——什么是三段标签指令、什么是钩子、讲师卡和学员手册怎么分工，一眼看懂。
+
+### 第 3 步：对 Agent 说一句话
 
 ```
 用 handbook-writing 这个 skill，帮我把这份课程方案做成实操手册。
@@ -64,7 +68,7 @@ cp -r handbook-writing/* ~/.workbuddy/skills/handbook-writing/
 
 Agent 会先问你四个决策问题（课程结构/工具主线/学员批次/发布平台），答完就开工。
 
-### 第 3 步：验收产出
+### 第 4 步：验收产出
 
 拿到交付物后按这个清单验收（Agent 自己也会跑一遍，你可以复核）：
 
@@ -79,6 +83,8 @@ Agent 会先问你四个决策问题（课程结构/工具主线/学员批次/�
 ```
 handbook-writing/
 ├── SKILL.md                      ← 总路由：意图识别 + 两条子流程 + 铁律
+├── examples/                     ← 两套真实交付成品（Word课 + Excel课，含讲师卡）
+│   └── README.md                 ← 先看这里：范例看点 × skill 概念对照表
 ├── references/
 │   ├── handbook-writing.md       ← 创作线：八步流程 + 30 条实战踩坑清单
 │   ├── handbook-template.md      ← 13 章写作模板（系列课骨架；单节课弹性取用）
