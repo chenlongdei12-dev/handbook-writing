@@ -38,7 +38,7 @@
 
 ```bash
 # 通用做法：克隆到本地
-git clone https://github.com/chenlongdei12-dev/handbook-writing.git
+git clone https://github.com/chenlongdei/handbook-writing.git
 
 # Claude Code / Codex CLI / OpenClaw（项目级）
 cp -r handbook-writing/* .claude/skills/handbook-writing/

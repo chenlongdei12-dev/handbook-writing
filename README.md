@@ -33,7 +33,7 @@
 先克隆（或在本页面点 **Code → Download ZIP** 解压，效果一样）：
 
 ```bash
-git clone https://github.com/chenlongdei12-dev/handbook-writing.git
+git clone https://github.com/chenlongdei/handbook-writing.git
 ```
 
 然后按你用的 AI 工具，复制到对应技能目录（任选一条）：
